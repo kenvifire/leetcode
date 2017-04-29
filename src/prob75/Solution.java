@@ -7,6 +7,8 @@ package prob75;
 public class Solution {
 
     public void sortColors(int[] A) {
+
+        /** two pass algorithm
         int r = 0, w = 0, b = 0;
 
         for(int c : A){
@@ -27,6 +29,17 @@ public class Solution {
 
         while (b --> 0){
             A[i++] = 2;
+        }
+
+         **/
+
+        /** one-pass **/
+        int mid = 1;
+
+        int p =0,q = A.length -1;
+
+        while ( p <= q){
+
         }
 
     }
