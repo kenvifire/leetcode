@@ -23,5 +23,6 @@ function binarySearch(ar, formIndex,toIndex, key) {
  * @return {number}
  */
 var findMedianSortedArrays = function(nums1, nums2) {
+		
  	   
 };
